@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Memory Defense</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="topbar">Gold: <span id="gold">0</span> | Wave: <span id="wave">1</span> | Lives: <span id="lives">20</span></div>
+
+<div class="layout">
+  <div class="panel">
+    <h2>Tower Defense</h2>
+    <canvas id="td" width="350" height="700"></canvas>
+    <button onclick="buyTower()">Buy Tower (50)</button>
+    <p>Click canvas to place a tower.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Memory Game</h2>
+    <div id="memory"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Arithmetic</h2>
+    <div id="question"></div>
+    <input id="answer">
+    <button onclick="checkAnswer()">Submit</button>
+    <div id="feedback"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

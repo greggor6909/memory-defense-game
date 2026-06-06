@@ -1,0 +1,9 @@
+
+body{font-family:Arial,sans-serif;background:#f4f4f4;margin:0}
+#topbar{padding:10px;background:#222;color:#fff}
+.layout{display:flex;gap:10px;padding:10px}
+.panel{background:#fff;padding:10px;border-radius:8px;flex:1}
+#memory{display:grid;grid-template-columns:repeat(8,1fr);gap:4px}
+.card{aspect-ratio:1;border:1px solid #ccc;background:#888;cursor:pointer;background-size:cover;background-position:center}
+.card.revealed{background-color:#fff}
+canvas{border:1px solid #000;width:100%;max-width:350px}
